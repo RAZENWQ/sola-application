@@ -11,6 +11,7 @@ import {
   AVAILABLE_INVESTMENT_TYPES,
   InvestementTypeLifecycles,
 } from './investmentTypes';
+import { createGetBlinkTool } from './getBlink';
 
 export const toolhandlerModel = openai.responses('gpt-4.1');
 export const toolsetSelectionModel = openai('gpt-4.1-mini');
