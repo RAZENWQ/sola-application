@@ -37,7 +37,7 @@ export function createGetBlinkTool(_context: ToolContext) {
             type: 'blink_action',
             blinkUrl: resolved,
             originalUrl: params.blinkUrl,
-            autoExecute: params.autoExecute ?? true,
+            autoExecute: params.autoExecute ?? false,
             note: params.note || null,
           },
         };
